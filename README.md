@@ -1,5 +1,15 @@
 # Certified AWS Associate Developer Notes
 
+![License](https://img.shields.io/github/license/arnaudj/mooc-aws-certified-developer-associate-2020-notes)
+![Course_year](https://img.shields.io/badge/Course%20Year-2020-brightgreen.svg)
+![Last_Commit](https://img.shields.io/github/last-commit/arnaudj/mooc-aws-certified-developer-associate-2020-notes.svg)
+
+Forked original notes of [Mostafa Abdo](https://github.com/mostafa-abdo/certified-aws-developer-associate-notes).
+
+Content enriched with my notes from course [Udemy AWS Certified Developer Associate 2020, by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+
+---
+
 ### My notes in preparation for the 2020 AWS developer associate exam 
 
 ## Table of contents
