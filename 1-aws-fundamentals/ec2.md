@@ -18,6 +18,9 @@ When you SSH into your EC2 machine:
 If your machine is stopped and then restarted, the public IP will change
 
 ## EC2 User Data
+
+:heavy_check_mark:
+
 * It is possible to bootstrap our instances using an EC2 User data script
 * Bootstrapping means launching commands when a machine starts
 * That script is only run once at the instance first start
@@ -35,6 +38,9 @@ If your machine is stopped and then restarted, the public IP will change
 * URL: {ec2-ip-address}/latest/meta-data
 
 ## EC2 Instance Launch Types 
+
+:heavy_check_mark:
+
 - **On Demand Instances**: short workload, predictable pricing
 - **Reserved Instances**: long workloads (>= 1 year)
 - **Convertible Reserved Instances**: long workloads with flexible instances
