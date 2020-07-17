@@ -19,7 +19,7 @@ If your machine is stopped and then restarted, the public IP will change
 
 ## EC2 User Data
 
-:heavy_check_mark:
+✔
 
 * It is possible to bootstrap our instances using an EC2 User data script
 * Bootstrapping means launching commands when a machine starts
@@ -39,7 +39,7 @@ If your machine is stopped and then restarted, the public IP will change
 
 ## EC2 Instance Launch Types 
 
-:heavy_check_mark:
+✔
 
 - **On Demand Instances**: short workload, predictable pricing
 - **Reserved Instances**: long workloads (>= 1 year)

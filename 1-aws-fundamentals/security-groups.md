@@ -1,6 +1,6 @@
 # Security Groups
 
-:heavy_check_mark:
+✔
 
 #### The fundamental of network security in AWS
 
