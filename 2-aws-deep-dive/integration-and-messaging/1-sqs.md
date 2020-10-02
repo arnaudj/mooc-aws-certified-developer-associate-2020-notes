@@ -1,5 +1,7 @@
 # SQS: Simple Queue Service
 
+✔
+
 SQS is a service that manages and operates message oriented middleware. It enables you to decouple and scale microservices, distributed systems, and serverless applications.
 
 What's a queue?
@@ -31,9 +33,11 @@ What's a queue?
     - Define the body
     - Add message attributes (metadata - optional)
     - Optionally can provide Delay Delivery
-    - You recieve back:
+    - You receive back:
         - Message identifier
         - MD5 hash of the body
+
+Messages can be encrypted at rest.
 
 ### Consuming Messages
     - Poll SQS for messages
@@ -47,10 +51,14 @@ What's a queue?
         - Default 30 seconds
         - If it takes 15 minutes or greater and consumer fails to process the message, you must wait before processing the message again
         - IF set to 30 seconds or lower and consuemr needs time to process the message, another consumer will receive the message and will be processed more than once
-    - **ChangeMessageVisibilty**
-        - An API to change the visibility while processing a message
+    - **ChangeMessageVisibility**
+        - An API to change the visibility while processing a message. It can be used to extend the visibility timeout (ex: calling ChangeMessageVisibility(10min) at T+3min will have a total visibility timeout of 13min)
     - **DeleteMessage**
         - An API to tell SQS the message was successfully processed
 
 ### Dead Letter Queue
     - To be continued
+
+## Interesting use cases
+* SQS as an event source for Lambda: https://aws.amazon.com/serverless/use-sqs-as-an-event-source-for-lambda-tutorial/
+* SNS fanout a notification to to multiple SQS queues: https://aws.amazon.com/getting-started/hands-on/send-fanout-event-notifications/
