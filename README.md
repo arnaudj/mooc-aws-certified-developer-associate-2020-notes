@@ -1,16 +1,16 @@
 # Certified AWS Associate Developer Notes
 
 ![License](https://img.shields.io/github/license/arnaudj/mooc-aws-certified-developer-associate-2020-notes)
-![Course_year](https://img.shields.io/badge/Course%20Year-2020-brightgreen.svg)
+![Course_year](https://img.shields.io/badge/Course%20Year-2021-brightgreen.svg)
 ![Last_Commit](https://img.shields.io/github/last-commit/arnaudj/mooc-aws-certified-developer-associate-2020-notes.svg)
 
 Forked original notes of [Mostafa Abdo](https://github.com/mostafa-abdo/certified-aws-developer-associate-notes).
 
-Content enriched with my notes from course [Udemy AWS Certified Developer Associate 2020, by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+Content enriched with my notes from course [Udemy AWS Certified Developer Associate 2021, by Stephane Maarek](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
 
 ---
 
-### My notes in preparation for the 2020 AWS developer associate exam 
+### My notes in preparation for the 2021 AWS developer associate exam 
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ Content enriched with my notes from course [Udemy AWS Certified Developer Associ
     - [Security Groups](1-aws-fundamentals/security-groups.md)
     - [ELB: Elastic Load Balancers](1-aws-fundamentals/elb.md)
     - [ASG: Auto Scaling Group](1-aws-fundamentals/asg.md)
-    - [EBS Volumes](1-aws-fundamentals/ebs.md)
+    - [EBS: Elastic Block Store](1-aws-fundamentals/ebs.md)
     - [RDS: Relational Database Service](1-aws-fundamentals/rds.md)
     - [Route 53](1-aws-fundamentals/route53.md)
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
@@ -40,16 +40,19 @@ Content enriched with my notes from course [Udemy AWS Certified Developer Associ
     - [CloudWatch](2-aws-deep-dive/monitoring-and-audit/cloudwatch.md)
     - [Integration and Messaging](2-aws-deep-dive/integration-and-messaging/0-intro.md)
         - [SQS](2-aws-deep-dive/integration-and-messaging/1-sqs.md)
-        - SNS
-        - Kinesis
+        - [SNS](2-aws-deep-dive/integration-and-messaging/2-sns.md)
+        - [Kinesis](2-aws-deep-dive/integration-and-messaging/3-kinesis.md)
 
 - [YAML](2-aws-deep-dive/yaml.md)
 
 - [AWS Serverless](3-aws-serverless/serverless.md)
-  - Lambda
-  - DynamoDB
-  - API Gateway
-  - Cognito
+  - [Lambda](3-aws-serverless/lambda.md)
+  - [DynamoDB](3-aws-serverless/dynamodb.md)
+  - [API Gateway](3-aws-serverless/apigateway.md)
+  - [SAM](3-aws-serverless/sam.md)
+  - [Cognito](3-aws-serverless/cognito.md)
+  - [Step Functions](3-aws-serverless/stepfunctions.md)
+  - [AppSync](3-aws-serverless/appsync.md)
 
 - Docker based AWS services
   - ECS: Elastic Container Service
@@ -82,7 +85,7 @@ Content enriched with my notes from course [Udemy AWS Certified Developer Associ
   * Know the fundamental differences between private vs public vs elastic IP 
   * Know how to use User Data to customize your instance at boot time 
   * Know that you can build custom AMI to enhance your OS 
-  * EC2 instances are billed by the second and can be easily created and thrown away, welcome to the cloud!  
+  * EC2 instances are billed by the second and can be easily created and thrown away, welcome to the cloud! 
   Maybe on Exam:
   * Availability zones are in geographically isolated data centers
   * IAM users are NOT defined on a per-region basis
